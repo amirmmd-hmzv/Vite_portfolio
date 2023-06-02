@@ -1,6 +1,8 @@
 // import content
 import { useEffect } from "react";
 import { content } from "../Content";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 const Hero = () => {
   const { hero } = content;
 
@@ -23,7 +25,9 @@ const Hero = () => {
           <h2>{hero.title}</h2>
           <br />
           <div className="flex justify-end">
-            <a href="#contact" className="btn">{hero.btnText}</a>
+            <a href="#contact" className="btn">
+              {hero.btnText}
+            </a>
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
@@ -43,7 +47,7 @@ const Hero = () => {
 
         {/* sec col */}
         <div className="md:h-[37rem] h-96">
-          <img
+          <LazyLoadImage
             src={hero.image}
             data-aos="slide-up"
             alt="..."

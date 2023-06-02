@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/myHero.png";
+import Hero_person from "./assets/images/Hero/myHero (1).png";
 import Tailwind from "./assets/images/Skills/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8 (2).svg";
 import next from "./assets/images/Skills/nextjs-icon.svg";
 import ts from "./assets/images/Skills/tss.png";
@@ -23,8 +23,8 @@ import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/IMG_3506cccccflollllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll.png";
-import Hireme_person2 from "./assets/images/Hireme/IMG_3491xxxxxxxxxxxxxxxxxxxxxx.png";
+import Hireme_person from "./assets/images/Hireme/360.png";
+import Hireme_person2 from "./assets/images/Hireme/seat.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";

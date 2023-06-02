@@ -1,7 +1,8 @@
 import { content } from "../Content";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -23,7 +24,8 @@ const Projects = () => {
           <br />
         </div>
         <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
-          <img
+          <LazyLoadImage
+          effect="opacity"
             src={Projects.image}
             alt="..."
             data-aos="fade-right"

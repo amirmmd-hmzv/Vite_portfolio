@@ -1,5 +1,6 @@
 import { content } from "../Content";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 const Hireme = () => {
   const { Hireme } = content;
 
@@ -20,7 +21,8 @@ const Hireme = () => {
             data-aos="fade-right"
             className="max-w-sm md:block hidden"
           />
-          <img
+          <LazyLoadImage
+          effect="opacity"
             src={Hireme.image2}
             data-aos="fade-up"
             alt="..."
