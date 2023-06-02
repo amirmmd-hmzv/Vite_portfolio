@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/myHero (1).png";
+import Hero_person from "./assets/images/Hero/myHero (1) (1).png";
 import Tailwind from "./assets/images/Skills/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8 (2).svg";
 import next from "./assets/images/Skills/nextjs-icon.svg";
 import ts from "./assets/images/Skills/tss.png";
