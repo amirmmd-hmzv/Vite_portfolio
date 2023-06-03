@@ -1,8 +1,9 @@
 import { content } from "../Content";
+import React, { lazy, Suspense } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import LazyLoad from 'react-lazy-load';
+
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -24,13 +25,16 @@ const Projects = () => {
           <br />
         </div>
         <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
-          <LazyLoadImage
-          effect="opacity"
-            src={Projects.image}
-            alt="..."
-            data-aos="fade-right"
-            className="max-w-[45vw] min-w-[22rem]"
-          />
+          <LazyLoad>
+          <img
+          
+          src={Projects.image}
+          alt="..."
+          data-aos="fade-right"
+          className="max-w-[45vw] min-w-[22rem]"
+        />
+          </LazyLoad>
+     
           <Swiper
             pagination={{
               clickable: true,

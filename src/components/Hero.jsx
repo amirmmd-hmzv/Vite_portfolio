@@ -1,8 +1,8 @@
 // import content
 import { useEffect } from "react";
 import { content } from "../Content";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
+import LazyLoad from 'react-lazy-load';
+
 const Hero = () => {
   const { hero } = content;
 
@@ -47,12 +47,15 @@ const Hero = () => {
 
         {/* sec col */}
         <div className="md:h-[37rem] h-96">
-          <LazyLoadImage
+          <LazyLoad >
+          <img
             src={hero.image}
             data-aos="slide-up"
             alt="..."
             className="h-full object-cover"
           />
+          </LazyLoad>
+    
         </div>
       </div>
     </section>

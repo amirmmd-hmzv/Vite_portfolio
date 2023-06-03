@@ -1,6 +1,6 @@
 import { content } from "../Content";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import LazyLoad from 'react-lazy-load';
+
 const Hireme = () => {
   const { Hireme } = content;
 
@@ -15,19 +15,21 @@ const Hireme = () => {
         </h4>
         <br />
         <div className="flex items-center md:flex-row flex-col-reverse ">
-          <img
+      <LazyLoad  >
+      <img
             src={Hireme.image1}
             alt="..."
             data-aos="fade-right"
-            className="max-w-sm md:block hidden"
+            className="max-w-sm "
           />
-          <LazyLoadImage
+      </LazyLoad>
+          {/* <LazyLoadImage
           effect="opacity"
             src={Hireme.image2}
             data-aos="fade-up"
             alt="..."
             className="max-w-sm md:hidden"
-          />
+          /> */}
           <div
             data-aos="fade-left"
             className="border-2 border-dark_primary max-w-sm
