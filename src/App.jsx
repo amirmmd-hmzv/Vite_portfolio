@@ -26,10 +26,10 @@ const App = () => {
       <Navbar />
       <Hero />
       <Skills />
-      <Service />
+      {/* <Service /> */}
       <Projects />
       {/* <Testimonials /> */}
-      <Hireme />
+      {/* <Hireme /> */}
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3">Amir Mohammad Hamzavi</h6>

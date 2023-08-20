@@ -13,7 +13,7 @@ import { Pagination } from "swiper";
 const Projects = () => {
   const { Projects } = content;
   return (
-    <section className="bg-bg_light_primary" id="projects">
+    <section className="bg-bg_light_primary sc" id="projects">
       <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
         <div>
           <h2 className="title" data-aos="fade-down">
@@ -24,7 +24,7 @@ const Projects = () => {
           </h4>
           <br />
         </div>
-        <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
+        <div className="flex items-center lg:flex-row flex-col-reverse gap-5 mb-5 ">
           <LazyLoad>
           <img
           
@@ -32,6 +32,7 @@ const Projects = () => {
           alt="..."
           data-aos="fade-right"
           className="max-w-[45vw] min-w-[22rem]"
+          loading="lazy"
         />
           </LazyLoad>
      
@@ -47,9 +48,9 @@ const Projects = () => {
             {Projects.project_content.map((content, i) => (
               <SwiperSlide
                 key={i}
-                className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
+                className="bg-white rounded-3xl p-4 border-b-8 border-[#FAF9FD] h-fit"
               >
-                <img src={content.image} alt="..." />
+                <img  src={content.image} alt="..." />
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
                   <a href={content.link} target="_blank" className="font-bold text-gray self-end">
