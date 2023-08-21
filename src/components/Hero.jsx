@@ -1,5 +1,4 @@
 // import content
-import { useEffect } from "react";
 import { content } from "../Content";
 import LazyLoad from 'react-lazy-load';
 
@@ -46,15 +45,14 @@ const Hero = () => {
         </div>
 
         {/* sec col */}
-        <div className="md:h-[37rem] h-96">
-          <LazyLoad >
+        <div className="md:h-[37rem] h-96 mr-24">
           <img
+          loading="lazy"
             src={hero.image}
             data-aos="slide-up"
             alt="..."
             className="h-full object-cover"
           />
-          </LazyLoad>
     
         </div>
       </div>

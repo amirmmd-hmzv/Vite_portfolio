@@ -77,7 +77,7 @@ const Contact = () => {
               Submit
             </button>
           </form>
-          <div className="flex-1 flex flex-col gap-5">
+          <div className="flex-1 flex flex-col gap-5  z-10">
             {Contact.social_media.map((content, i) => (
               <div
                 key={i}
@@ -86,7 +86,7 @@ const Contact = () => {
                 className="flex items-center gap-2"
               >
                 <h4 className="text-white">{createElement(content.icon)}</h4>
-                <a className="font-Poppins" href={content.link} target="_parent">
+                <a className="font-Poppins" href={content.link} target="_blank">
                   {content.text}
                 </a>
               </div>

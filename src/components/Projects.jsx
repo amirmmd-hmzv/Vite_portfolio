@@ -14,7 +14,7 @@ const Projects = () => {
   const { Projects } = content;
   return (
     <section className="bg-bg_light_primary sc" id="projects">
-      <div className="md:container px-5 pt-14 min-h-screen flex flex-col justify-between">
+      <div className="md:container px-5  m flex flex-col justify-between">
         <div>
           <h2 className="title" data-aos="fade-down">
             {Projects.title}
@@ -22,19 +22,16 @@ const Projects = () => {
           <h4 className="subtitle" data-aos="fade-down">
             {Projects.subtitle}
           </h4>
-          <br />
         </div>
-        <div className="flex items-center lg:flex-row flex-col-reverse gap-5 mb-5 ">
-          <LazyLoad>
+        <div className="flex items-center justify-center md:flex-row flex-col-reverse gap-5  bg-red-5 mb-5 ">
           <img
           
           src={Projects.image}
           alt="..."
           data-aos="fade-right"
-          className="max-w-[45vw] min-w-[22rem]"
+          className="max-w-[45vw] min-w-[22rem] flex justify-center mr-14  lg:pr-0"
           loading="lazy"
         />
-          </LazyLoad>
      
           <Swiper
             pagination={{
@@ -43,7 +40,7 @@ const Projects = () => {
             data-aos="fade-left"
             spaceBetween={20}
             modules={[Pagination]}
-            className="rounded-3xl pb-16 max-w-xs drop-shadow-primary self-start"
+            className="rounded-3xl pb-16 max-w-[22rem] md:max-w-lg mt-10 drop-shadow-primary self-start"
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide

@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/myHero (1) (1).png";
+import Hero_person from "./assets/images/Hero/myHero (1) (1).webp";
 import Tailwind from "./assets/images/Skills/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8 (2).svg";
 import next from "./assets/images/Skills/nextjs-icon.svg";
 import ts from "./assets/images/Skills/tss.png";
@@ -18,13 +18,7 @@ import project4 from "./assets/images/pj/crypto.PNG";
 
 // import person_project from "./assets/images/projects/person.png";
 
-import avatar1 from "./assets/images/Testimonials/avatar1.png";
-import avatar2 from "./assets/images/Testimonials/avatar2.png";
-import avatar3 from "./assets/images/Testimonials/avatar3.png";
-import avatar4 from "./assets/images/Testimonials/avatar4.png";
-
-import Hireme_person from "./assets/images/Hireme/360.png";
-import Hireme_person2 from "./assets/images/Hireme/seat.png";
+import Hireme_person2 from "./assets/images/Hireme/seat (1).webp";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -34,6 +28,7 @@ import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
 
 export const content = {
   nav: [
@@ -150,44 +145,7 @@ export const content = {
       },
     ],
   },
-  Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
-    testimonials_content: [
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar1,
-        name: "JOHN DOE",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar2,
-        name: "Tom Alex",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar3,
-        name: "Johnny",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar4,
-        name: "ROBBIN",
-      },
-    ],
-  },
-  Hireme: {
-    title: "Hire Me",
-    subtitle: "FOR YOUR PROJECTS",
-    image1: Hireme_person,
-    image2: Hireme_person,
-    para: "My portfolio showcases some of my recent projects, where I have put my skills into practice and developed innovative solutions to real-world problems. From e-commerce websites to crypto website, my projects demonstrate my ability to work with diverse teams and deliver top-quality results.",
-    btnText: "Hire Me",
-  },
+
   Contact: {
     title: "Contect Me",
     subtitle: "GET IN TOUCH",
@@ -198,9 +156,14 @@ export const content = {
         link: "#contact",
       },
       {
+        text: "my linkedin profile",
+        icon: FaLinkedin,
+        link: "https://www.linkedin.com/in/amir-mohammad-hamzavi-97ab82279?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGJhbdi3uSOyR1itiuMXYBQ%3D%3D",
+      },
+      {
         text: "+98 922 131 2297",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
+        link: "tel:+98 922 131 2297",
       },
       {
         text: "amir_hmzv",
