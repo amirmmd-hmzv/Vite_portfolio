@@ -6,17 +6,11 @@ import ts from "./assets/images/Skills/tss.png";
 import reactjs from "./assets/images/Skills/react.png";
 import mui from "./assets/images/Skills/mui.png";
 import js from "./assets/images/Skills/JavaScript-logo.png";
-
-import services_logo1 from "./assets/images/Services/logo1.png";
-// import services_logo2 from "./assets/images/Services/logo2.png";
-// import services_logo3 from "./assets/images/Services/logo3.png";
-
 import project1 from "./assets/images/pj/netflix.PNG";
 import project2 from "./assets/images/pj/shopping.png";
 import project3 from "./assets/images/pj/Captureghazachi.PNG";
 import project4 from "./assets/images/pj/crypto.PNG";
 
-// import person_project from "./assets/images/projects/person.png";
 
 import Hireme_person2 from "./assets/images/Hireme/seat (1).webp";
 
@@ -29,7 +23,11 @@ import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
+const emailAddress = 'your.email@example.com';
+const subject = encodeURIComponent('Job Opportunity');
+const body = encodeURIComponent('Hello, I am interested in discussing potential job opportunities with you.');
 
+const mailtoLink = `mailto:${emailAddress}?subject=${subject}&body=${body}`;
 export const content = {
   nav: [
     {
@@ -40,10 +38,7 @@ export const content = {
       link: "#skills",
       icon: BiUser,
     },
-    {
-      link: "#services",
-      icon: RiServiceLine,
-    },
+  
     {
       link: "#projects",
       icon: RiProjectorLine,
@@ -107,17 +102,7 @@ export const content = {
     ],
     icon: MdArrowForward,
   },
-  services: {
-    title: "Services",
-    subtitle: "WHAT I OFFER",
-    service_content: [
-      {
-        title: "Web Development",
-        para: " As a  React developer, I am passionate about building beautiful and functional web applications that provide great user experiences. With my skills in React, JavaScript, HTML, CSS, and other front-end technologies, I am dedicated to creating engaging and responsive designs that meet the needs of users.",
-        logo: services_logo1,
-      },
-    ],
-  },
+
   Projects: {
     title: "Projects",
     subtitle: "MY CREATION",
@@ -153,7 +138,7 @@ export const content = {
       {
         text: "amirhamzavi44@gmail.com",
         icon: GrMail,
-        link: "#contact",
+        link: `${mailtoLink}`,
       },
       {
         text: "my linkedin profile",

@@ -29,7 +29,7 @@ const Projects = () => {
           src={Projects.image}
           alt="..."
           data-aos="fade-right"
-          className="max-w-[45vw] min-w-[22rem] flex justify-center mr-14  lg:pr-0"
+          className="max-w-[45vw] min-w-[22rem] flex justify-center pr-14  lg:p-10  relative  lg:right-20"
           loading="lazy"
         />
      
@@ -40,7 +40,7 @@ const Projects = () => {
             data-aos="fade-left"
             spaceBetween={20}
             modules={[Pagination]}
-            className="rounded-3xl pb-16 max-w-[22rem] md:max-w-lg mt-10 drop-shadow-primary self-start"
+            className="rounded-3xl pb-16 max-w-[20rem] md:max-w-lg mt-10 drop-shadow-primary self-start"
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide
