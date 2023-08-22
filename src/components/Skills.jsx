@@ -46,13 +46,11 @@ const Skills = () => {
                relative group w-full flex items-center
                 gap-5 p-5 max-w-sm rounded-md border-2 border-slate-200 "
             >
-              <div className="">
                 <img
                   src={skill.logo}
                   alt="..."
                   className="w-10 group-hover:scale-125 duration-500"
                 />
-              </div>
               <div>
                 <h6>{skill.name}</h6>
                 <p className="italic">{skill.para}</p>
