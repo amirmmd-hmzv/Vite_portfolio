@@ -19,7 +19,7 @@ const App = () => {
     });
   }, []);
   return (
-    <div className="overflow-x-hidden">
+    <div id="style-1"  className="overflow-x-hidden scrollbar">
       <Navbar />
       <Hero />
       <Skills />

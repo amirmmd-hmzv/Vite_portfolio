@@ -61,7 +61,7 @@ const Skills = () => {
                     setSelectSkill(skill);
                     openModal();
                   }}
-                  className="text-xl absolute top-3 right-3"
+                  className="text-xl  absolute top-8 right-3"
                 >
                   {createElement(skills.icon)}
                 </div>
