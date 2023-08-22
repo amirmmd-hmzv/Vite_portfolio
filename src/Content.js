@@ -23,7 +23,7 @@ import { BiUser } from "react-icons/bi";
 import { RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-const emailAddress = "amirhamzavi78@gmail.com";
+const emailAddress = "amirhamzavi44@gmail.com";
 const subject = encodeURIComponent("Job Opportunity");
 const body = encodeURIComponent(
   "Hello, I am interested in discussing potential job opportunities with you."
