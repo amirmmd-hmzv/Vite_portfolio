@@ -10,6 +10,7 @@ import project1 from "./assets/images/pj/netflix.webp";
 import project2 from "./assets/images/pj/shopping.webp";
 import project3 from "./assets/images/pj/Captureghazachi.webp";
 import project4 from "./assets/images/pj/crypto.webp";
+import project5 from "./assets/images/pj/HypoMelk.webp";
 
 import Hireme_person2 from "./assets/images/Hireme/seat (1).webp";
 
@@ -22,7 +23,7 @@ import { BiUser } from "react-icons/bi";
 import { RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-const emailAddress = "";
+const emailAddress = "amirhamzavi78@gmail.com";
 const subject = encodeURIComponent("Job Opportunity");
 const body = encodeURIComponent(
   "Hello, I am interested in discussing potential job opportunities with you."
@@ -114,6 +115,12 @@ export const content = {
         image: project1,
         link: `https://my-netflix-seven.vercel.app/`,
       },
+      {
+        title: "HypoMelk",
+        image: project5,
+        link: `https://hypo-melk.vercel.app/`,
+      },
+
       {
         title: "Shopping Cart (need vpn)",
         image: project2,

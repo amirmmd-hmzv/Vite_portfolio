@@ -1,8 +1,6 @@
 import { content } from "../Content";
-import React, { lazy, Suspense } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import LazyLoad from 'react-lazy-load';
 
 // Import Swiper styles
 import "swiper/css";
@@ -29,7 +27,7 @@ const Projects = () => {
           src={Projects.image}
           alt="..."
           data-aos="fade-right"
-          className="max-w-[45vw] min-w-[30rem] flex justify-center pr-14  lg:p-10  relative  lg:right-40"
+          className="max-w-[45vw] hidden sm:flex min-w-[22rem]  justify-center pr-14  lg:p-10  relative  lg:right-40"
           loading="lazy"
         />
      
@@ -47,8 +45,10 @@ const Projects = () => {
                 key={i}
                 className="bg-white rounded-3xl p-4 border-b-8 border-[#FAF9FD] h-fit"
               >
-                <img  src={content.image} alt="..." />
-                <div className="flex flex-col gap-1 mt-2">
+               <a href={content.link} target="_blank" >
+               <img   src={content.image} alt="..." />
+               </a>
+                <div href={content.link} className="flex  flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
                   <a href={content.link} target="_blank" className="font-bold text-gray self-end">
                    Visit
