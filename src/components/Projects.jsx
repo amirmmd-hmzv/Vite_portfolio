@@ -29,7 +29,7 @@ const Projects = () => {
           src={Projects.image}
           alt="..."
           data-aos="fade-right"
-          className="max-w-[45vw] min-w-[22rem] flex justify-center pr-14  lg:p-10  relative  lg:right-20"
+          className="max-w-[45vw] min-w-[30rem] flex justify-center pr-14  lg:p-10  relative  lg:right-40"
           loading="lazy"
         />
      

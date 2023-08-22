@@ -6,11 +6,10 @@ import ts from "./assets/images/Skills/tss.png";
 import reactjs from "./assets/images/Skills/react.png";
 import mui from "./assets/images/Skills/mui.png";
 import js from "./assets/images/Skills/JavaScript-logo.png";
-import project1 from "./assets/images/pj/netflix.PNG";
-import project2 from "./assets/images/pj/shopping.png";
-import project3 from "./assets/images/pj/Captureghazachi.PNG";
-import project4 from "./assets/images/pj/crypto.PNG";
-
+import project1 from "./assets/images/pj/netflix.webp";
+import project2 from "./assets/images/pj/shopping.webp";
+import project3 from "./assets/images/pj/Captureghazachi.webp";
+import project4 from "./assets/images/pj/crypto.webp";
 
 import Hireme_person2 from "./assets/images/Hireme/seat (1).webp";
 
@@ -20,12 +19,14 @@ import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
-import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
+import { RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
-const emailAddress = 'your.email@example.com';
-const subject = encodeURIComponent('Job Opportunity');
-const body = encodeURIComponent('Hello, I am interested in discussing potential job opportunities with you.');
+const emailAddress = "";
+const subject = encodeURIComponent("Job Opportunity");
+const body = encodeURIComponent(
+  "Hello, I am interested in discussing potential job opportunities with you."
+);
 
 const mailtoLink = `mailto:${emailAddress}?subject=${subject}&body=${body}`;
 export const content = {
@@ -38,7 +39,7 @@ export const content = {
       link: "#skills",
       icon: BiUser,
     },
-  
+
     {
       link: "#projects",
       icon: RiProjectorLine,
@@ -109,12 +110,12 @@ export const content = {
     image: Hireme_person2,
     project_content: [
       {
-        title: "Mini Netflix",
+        title: "Mini Netflix (need vpn)",
         image: project1,
         link: `https://my-netflix-seven.vercel.app/`,
       },
       {
-        title: "Shopping Cart",
+        title: "Shopping Cart (need vpn)",
         image: project2,
         link: `https://shopping-cart-shq4.vercel.app/`,
       },
