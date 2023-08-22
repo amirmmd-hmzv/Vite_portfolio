@@ -79,7 +79,8 @@ const Contact = () => {
           </form>
           <div className="flex-1 flex flex-col gap-5  z-10">
             {Contact.social_media.map((content, i) => (
-              <div
+              <a
+              href={content.link}
                 key={i}
                 data-aos="fade-down"
                 data-aos-delay={i * 430}
@@ -89,7 +90,7 @@ const Contact = () => {
                 <a className="font-Poppins" href={content.link} target="_blank">
                   {content.text}
                 </a>
-              </div>
+              </a>
             ))}
           </div>
         </div>
