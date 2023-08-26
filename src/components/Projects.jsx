@@ -27,7 +27,7 @@ const Projects = () => {
           src={Projects.image}
           alt="..."
           data-aos="fade-right"
-          className="max-w-[45vw] hidden sm:flex min-w-[22rem]  justify-center pr-14  lg:p-10  relative  lg:right-40"
+          className="max-w-[45vw] hidden sm:flex   justify-center pr-14  lg:p-10  relative  lg:right-32"
           loading="lazy"
         />
      

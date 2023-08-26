@@ -28,7 +28,7 @@ const Skills = () => {
     <section className="min-h-fit bg-bg_light_primary" id="skills">
 
       {/* content */}
-      <div className="md:container px-5  py-14">
+      <div className="sm:container px-5  py-14">
         <h2 className="title" data-aos="fade-down">
           {skills.title}
         </h2>
@@ -36,7 +36,7 @@ const Skills = () => {
           {skills.subtitle}
         </h4>
         <br />
-        <div className="flex flex-wrap gap-4 justify-center">
+        <div className="grid grid-cols-1  sm:grid-cols-2   lg:flex lg:flex-wrap place-items-center place-content-center gap-4">
           {skills.skills_content.map((skill, i) => (
             <div
               key={i}

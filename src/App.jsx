@@ -11,6 +11,10 @@ import "aos/dist/aos.css";
 const now = new Date();
 
 const App = () => {
+  const handleInstallClick = async () => {
+    const registration = await navigator.serviceWorker.ready;
+    registration.showInstallPrompt();
+  };
   useEffect(() => {
     Aos.init({
       duration: 1800,
@@ -28,6 +32,7 @@ const App = () => {
       <footer className="p-3 text-center">
         <h6 className="mb-3">Amir Mohammad Hamzavi</h6>
         <p>© All CopyRights Reserved {now.getFullYear()}</p>
+
       </footer>
     </div>
   );
