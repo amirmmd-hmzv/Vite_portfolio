@@ -1,6 +1,5 @@
 // import content
 import { content } from "../Content";
-import LazyLoad from 'react-lazy-load';
 
 const Hero = () => {
   const { hero } = content;
