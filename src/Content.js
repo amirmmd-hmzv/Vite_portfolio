@@ -22,7 +22,7 @@ import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGoogleDrive, FaLinkedin, FaMap, FaMapMarkerAlt } from "react-icons/fa";
 const emailAddress = "amirhamzavi44@gmail.com";
 const subject = encodeURIComponent("Job Opportunity");
 const body = encodeURIComponent(
@@ -148,20 +148,26 @@ export const content = {
         icon: GrMail,
         link: `${mailtoLink}`,
       },
-      {
-        text: "my linkedin profile",
-        icon: FaLinkedin,
-        link: "https://www.linkedin.com/in/amir-mohammad-hamzavi-97ab82279?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGJhbdi3uSOyR1itiuMXYBQ%3D%3D",
-      },
+
       {
         text: "+98 922 131 2297",
         icon: MdCall,
         link: "tel:+98 922 131 2297",
       },
       {
+        text: "Iran Mazandaran Amol",
+        icon: FaMapMarkerAlt,
+        link: "https://www.google.com/maps/place/%D8%A7%D8%B3%D8%AA%D8%A7%D9%86+%D9%85%D8%A7%D8%B2%D9%86%D8%AF%D8%B1%D8%A7%D9%86+%D8%A7%D9%85%D9%84%E2%80%AD/@36.4697495,52.3539761,14z/data=!4m6!3m5!1s0x3f8fa3fd34ab2acd:0x65e662ff07b22c2a!8m2!3d36.475244!4d52.345022!16s%2Fg%2F11s9ltvx08?entry=ttu",
+      },
+      {
         text: "amir_hmzv",
         icon: BsInstagram,
         link: "https://www.instagram.com/amir_hmzv/",
+      },
+      {
+        text: "My Linkedin Profile",
+        icon: FaLinkedin,
+        link: "https://www.linkedin.com/in/amir-mohammad-hamzavi-97ab82279?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGJhbdi3uSOyR1itiuMXYBQ%3D%3D",
       },
     ],
   },
