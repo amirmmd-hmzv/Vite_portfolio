@@ -6,6 +6,8 @@ import ts from "./assets/images/Skills/tss.png";
 import reactjs from "./assets/images/Skills/react.png";
 import mui from "./assets/images/Skills/mui.png";
 import js from "./assets/images/Skills/JavaScript-logo.png";
+import git from "./assets/images/Skills/Git-Icon-1788C.png";
+
 import project1 from "./assets/images/pj/netflix.webp";
 import project2 from "./assets/images/pj/shopping.webp";
 import project3 from "./assets/images/pj/Captureghazachi.webp";
@@ -22,7 +24,7 @@ import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
-import { FaGoogleDrive, FaLinkedin, FaMap, FaMapMarkerAlt } from "react-icons/fa";
+import { FaGitAlt, FaGoogleDrive, FaLinkedin, FaMap, FaMapMarkerAlt } from "react-icons/fa";
 const emailAddress = "amirhamzavi44@gmail.com";
 const subject = encodeURIComponent("Job Opportunity");
 const body = encodeURIComponent(
@@ -77,9 +79,9 @@ export const content = {
         logo: Tailwind,
       },
       {
-        name: "Material UI",
+        name: "Git",
         para: "",
-        logo: mui,
+        logo:   git,
       },
       {
         name: "TypeScript",
@@ -101,6 +103,9 @@ export const content = {
         para: "",
         logo: js,
       },
+    
+  
+
     ],
     icon: MdArrowForward,
   },
