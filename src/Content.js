@@ -1,37 +1,43 @@
 // import images
-import Hero_person from "./assets/images/Hero/myHero (1) (1).webp";
-import Tailwind from "./assets/images/Skills/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8 (2).svg";
-import next from "./assets/images/Skills/nextjs-icon.svg";
-import ts from "./assets/images/Skills/tss.png";
-import reactjs from "./assets/images/Skills/react.png";
-import mui from "./assets/images/Skills/mui.png";
-import js from "./assets/images/Skills/JavaScript-logo.png";
-import git from "./assets/images/Skills/Git-Icon-1788C.png";
+import Hero_person from "./assets/images/Hero/myHero (1) (1).webp"
+import Tailwind from "./assets/images/Skills/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8 (2).svg"
+import next from "./assets/images/Skills/nextjs-icon.svg"
+import ts from "./assets/images/Skills/tss.png"
+import reactjs from "./assets/images/Skills/react.png"
+import mui from "./assets/images/Skills/mui.png"
+import js from "./assets/images/Skills/JavaScript-logo.png"
+import git from "./assets/images/Skills/Git-Icon-1788C.png"
+import box4u from "./assets/images/pj/box4u.webp"
+import project1 from "./assets/images/pj/netflix.webp"
+import project2 from "./assets/images/pj/shopping.webp"
+import project3 from "./assets/images/pj/Captureghazachi.webp"
+import project4 from "./assets/images/pj/crypto.webp"
+import project5 from "./assets/images/pj/HypoMelk.webp"
 
-import project1 from "./assets/images/pj/netflix.webp";
-import project2 from "./assets/images/pj/shopping.webp";
-import project3 from "./assets/images/pj/Captureghazachi.webp";
-import project4 from "./assets/images/pj/crypto.webp";
-import project5 from "./assets/images/pj/HypoMelk.webp";
-
-import Hireme_person2 from "./assets/images/Hireme/seat (1).webp";
+import Hireme_person2 from "./assets/images/Hireme/seat (1).webp"
 
 // import icons from react-icons
-import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
-import { TbSmartHome } from "react-icons/tb";
-import { BiUser } from "react-icons/bi";
-import { RiProjectorLine } from "react-icons/ri";
-import { MdOutlinePermContactCalendar } from "react-icons/md";
-import { FaGitAlt, FaGoogleDrive, FaLinkedin, FaMap, FaMapMarkerAlt } from "react-icons/fa";
-const emailAddress = "amirhamzavi44@gmail.com";
-const subject = encodeURIComponent("Job Opportunity");
+import { GrMail } from "react-icons/gr"
+import { MdArrowForward, MdCall } from "react-icons/md"
+import { BsInstagram } from "react-icons/bs"
+import { TbSmartHome } from "react-icons/tb"
+import { BiUser } from "react-icons/bi"
+import { RiProjectorLine } from "react-icons/ri"
+import { MdOutlinePermContactCalendar } from "react-icons/md"
+import {
+  FaGitAlt,
+  FaGoogleDrive,
+  FaLinkedin,
+  FaMap,
+  FaMapMarkerAlt,
+} from "react-icons/fa"
+const emailAddress = "amirhamzavi44@gmail.com"
+const subject = encodeURIComponent("Job Opportunity")
 const body = encodeURIComponent(
   "Hello, I am interested in discussing potential job opportunities with you."
-);
+)
 
-const mailtoLink = `mailto:${emailAddress}?subject=${subject}&body=${body}`;
+const mailtoLink = `mailto:${emailAddress}?subject=${subject}&body=${body}`
 export const content = {
   nav: [
     {
@@ -81,7 +87,7 @@ export const content = {
       {
         name: "Git",
         para: "",
-        logo:   git,
+        logo: git,
       },
       {
         name: "TypeScript",
@@ -103,9 +109,6 @@ export const content = {
         para: "",
         logo: js,
       },
-    
-  
-
     ],
     icon: MdArrowForward,
   },
@@ -116,21 +119,22 @@ export const content = {
     image: Hireme_person2,
     project_content: [
       {
-        title: "Mini Netflix (need vpn)",
-        image: project1,
-        link: `https://my-netflix-seven.vercel.app/`,
+        title: "Box4U",
+        image: box4u,
+        link: `https://box4u.co/`,
+        desc: `Discover the perfect blend of creativity and precision with Boxu4. Unleash your design potential using our meticulously crafted DXF files. Elevate your projects effortlessly - explore, create, and transform with Boxu4 today!`,
       },
+
       {
         title: "HypoMelk",
         image: project5,
         link: `https://hypo-melk.vercel.app/`,
+        desc: `Step into a visually stunning real estate experience with my frontend portfolio's homepage UI. Immerse yourself in sleek design and seamless navigation as you explore properties. Elevate your property search with an interface that blends elegance and functionality, making every click a step closer to finding your dream home.
+
+        `,
       },
 
-      {
-        title: "Shopping Cart (need vpn)",
-        image: project2,
-        link: `https://shopping-cart-shq4.vercel.app/`,
-      },
+      
       {
         title: "Ghazachi Shop (jsut UI)",
         image: project3,
@@ -140,6 +144,9 @@ export const content = {
         title: "Crypto website",
         image: project4,
         link: `https://crypto-app-darkmode.vercel.app/`,
+        desc: `Discover the world of cryptocurrencies on our simple yet effective website. Get real-time updates on digital coin prices, empowering you with the information you need. Stay aware, make informed decisions – because in the digital economy, knowledge is your greatest asset.
+
+        `,
       },
     ],
   },
@@ -179,4 +186,4 @@ export const content = {
   Footer: {
     text: "All © Copy Right Reserved 2022",
   },
-};
+}
