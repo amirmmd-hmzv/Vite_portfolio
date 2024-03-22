@@ -8,6 +8,8 @@ import mui from "./assets/images/Skills/mui.png"
 import js from "./assets/images/Skills/JavaScript-logo.png"
 import git from "./assets/images/Skills/Git-Icon-1788C.png"
 import box4u from "./assets/images/pj/box4u.webp"
+import tiget from "./assets/images/pj/tiget.webp"
+
 import project1 from "./assets/images/pj/netflix.webp"
 import project2 from "./assets/images/pj/shopping.webp"
 import project3 from "./assets/images/pj/Captureghazachi.webp"
@@ -124,7 +126,14 @@ export const content = {
         link: `https://box4u.co/`,
         desc: `Discover the perfect blend of creativity and precision with Boxu4. Unleash your design potential using our meticulously crafted DXF files. Elevate your projects effortlessly - explore, create, and transform with Boxu4 today!`,
       },
+      {
+        title: "Tiget",
+        image: tiget,
+        link: `https://tiget.org/`,
+        desc: `"Empowering Engagement: A website I developed seamlessly merges ticket sales and advertisements, offering users a streamlined experience to purchase tickets while providing advertisers with a platform to reach their target audience effectively. Through intuitive design and strategic integration, this site exemplifies my ability to blend functionality with user-centric design, catering to both business objectives and user needs in a dynamic online environment."
 
+        `,
+      },
       {
         title: "HypoMelk",
         image: project5,
@@ -134,7 +143,6 @@ export const content = {
         `,
       },
 
-      
       {
         title: "Ghazachi Shop (jsut UI)",
         image: project3,
