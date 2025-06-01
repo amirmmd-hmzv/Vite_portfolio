@@ -180,9 +180,9 @@ export const content = {
         link: "https://www.google.com/maps/place/%D8%A7%D8%B3%D8%AA%D8%A7%D9%86+%D9%85%D8%A7%D8%B2%D9%86%D8%AF%D8%B1%D8%A7%D9%86+%D8%A7%D9%85%D9%84%E2%80%AD/@36.4697495,52.3539761,14z/data=!4m6!3m5!1s0x3f8fa3fd34ab2acd:0x65e662ff07b22c2a!8m2!3d36.475244!4d52.345022!16s%2Fg%2F11s9ltvx08?entry=ttu",
       },
       {
-        text: "amir_hmzv",
+        text: "amirmmd_hmzv",
         icon: BsInstagram,
-        link: "https://www.instagram.com/amir_hmzv/",
+        link: "https://www.instagram.com/amirmmd_hmzv/",
       },
       {
         text: "My Linkedin Profile",
