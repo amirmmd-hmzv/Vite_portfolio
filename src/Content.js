@@ -9,14 +9,15 @@ import js from "./assets/images/Skills/JavaScript-logo.png"
 import git from "./assets/images/Skills/Git-Icon-1788C.png"
 import box4u from "./assets/images/pj/box4u.webp"
 import tiget from "./assets/images/pj/tiget.webp"
-
 import project1 from "./assets/images/pj/netflix.webp"
 import project2 from "./assets/images/pj/shopping.webp"
 import project3 from "./assets/images/pj/Captureghazachi.webp"
 import project4 from "./assets/images/pj/crypto.webp"
 import project5 from "./assets/images/pj/HypoMelk.webp"
+import webflowIcon from "./assets/images/Skills/webflow icon.svg"
 
-import Hireme_person2 from "./assets/images/Hireme/seat (1).webp"
+
+import Hireme_person2 from "./assets/images/Hireme/desk laptop image.jpg"
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr"
@@ -27,10 +28,7 @@ import { BiUser } from "react-icons/bi"
 import { RiProjectorLine } from "react-icons/ri"
 import { MdOutlinePermContactCalendar } from "react-icons/md"
 import {
-  FaGitAlt,
-  FaGoogleDrive,
   FaLinkedin,
-  FaMap,
   FaMapMarkerAlt,
 } from "react-icons/fa"
 const emailAddress = "amirhamzavi44@gmail.com"
@@ -61,7 +59,7 @@ export const content = {
     },
   ],
   hero: {
-    title: "Front End Developer",
+    title: "Front End & Webflow Developer",
     firstName: "Amir Mohammad",
     LastName: "Hmazavi",
     btnText: "Hire Me",
@@ -69,7 +67,7 @@ export const content = {
     hero_content: [
       {
         count: "2+",
-        text: "Years of Experinse in Front",
+        text: "Years of Experinse in Web Development",
       },
       {
         count: "",
@@ -110,6 +108,11 @@ export const content = {
         name: "Javascript",
         para: "",
         logo: js,
+      },
+         {
+        name: "Webflow",
+        para: "",
+        logo: webflowIcon,
       },
     ],
     icon: MdArrowForward,
@@ -175,7 +178,7 @@ export const content = {
         link: "tel:+98 922 131 2297",
       },
       {
-        text: "Iran Mazandaran Amol",
+        text: "Iran Mazandaran",
         icon: FaMapMarkerAlt,
         link: "https://www.google.com/maps/place/%D8%A7%D8%B3%D8%AA%D8%A7%D9%86+%D9%85%D8%A7%D8%B2%D9%86%D8%AF%D8%B1%D8%A7%D9%86+%D8%A7%D9%85%D9%84%E2%80%AD/@36.4697495,52.3539761,14z/data=!4m6!3m5!1s0x3f8fa3fd34ab2acd:0x65e662ff07b22c2a!8m2!3d36.475244!4d52.345022!16s%2Fg%2F11s9ltvx08?entry=ttu",
       },
@@ -184,11 +187,11 @@ export const content = {
         icon: BsInstagram,
         link: "https://www.instagram.com/amirmmd_hmzv/",
       },
-      {
-        text: "My Linkedin Profile",
-        icon: FaLinkedin,
-        link: "https://www.linkedin.com/in/amir-mohammad-hamzavi-97ab82279?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGJhbdi3uSOyR1itiuMXYBQ%3D%3D",
-      },
+      // {
+      //   text: "My Linkedin Profile",
+      //   icon: FaLinkedin,
+      //   link: "https://www.linkedin.com/in/amir-mohammad-hamzavi-97ab82279?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGJhbdi3uSOyR1itiuMXYBQ%3D%3D",
+      // },
     ],
   },
   Footer: {
