@@ -1,10 +1,12 @@
 // import components
-import Hero from "./components/Hero";
-import Navbar from "./Layouts/Navbar";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 import { useEffect } from "react";
+import Contact from "./components/Contact";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import ProjectsWebflow from "./components/ProjectsWebflow";
+
+import Skills from "./components/Skills";
+import Navbar from "./Layouts/Navbar";
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -23,16 +25,16 @@ const App = () => {
     });
   }, []);
   return (
-    <div id="style-1"  className="overflow-x-hidden scrollbar">
+    <div id="style-1" className="overflow-x-hidden scrollbar">
       <Navbar />
       <Hero />
       <Skills />
+      <ProjectsWebflow/>
       <Projects />
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3">Amir Mohammad Hamzavi</h6>
         <p>© All CopyRights Reserved {now.getFullYear()}</p>
-
       </footer>
     </div>
   );

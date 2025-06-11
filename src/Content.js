@@ -1,43 +1,49 @@
 // import images
-import Hero_person from "./assets/images/Hero/myHero (1) (1).webp"
-import Tailwind from "./assets/images/Skills/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8 (2).svg"
-import next from "./assets/images/Skills/nextjs-icon.svg"
-import ts from "./assets/images/Skills/tss.png"
-import reactjs from "./assets/images/Skills/react.png"
-import mui from "./assets/images/Skills/mui.png"
-import js from "./assets/images/Skills/JavaScript-logo.png"
-import git from "./assets/images/Skills/Git-Icon-1788C.png"
-import box4u from "./assets/images/pj/box4u.webp"
-import tiget from "./assets/images/pj/tiget.webp"
-import project1 from "./assets/images/pj/netflix.webp"
-import project2 from "./assets/images/pj/shopping.webp"
-import project3 from "./assets/images/pj/Captureghazachi.webp"
-import project4 from "./assets/images/pj/crypto.webp"
-import project5 from "./assets/images/pj/HypoMelk.webp"
-import webflowIcon from "./assets/images/Skills/webflow icon.svg"
+import Hero_person from "./assets/images/Hero/myHero (1) (1).webp";
+import Hireme_person2 from "./assets/images/Hireme/desk laptop image.jpg";
+import project3 from "./assets/images/pj/Captureghazachi.webp";
+import project4 from "./assets/images/pj/crypto.webp";
+import project5 from "./assets/images/pj/HypoMelk.webp";
+import tiget from "./assets/images/pj/tiget.webp";
+import git from "./assets/images/Skills/Git-Icon-1788C.png";
+import js from "./assets/images/Skills/JavaScript-logo.png";
+import next from "./assets/images/Skills/nextjs-icon.svg";
+import reactjs from "./assets/images/Skills/react.png";
+import Tailwind from "./assets/images/Skills/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8 (2).svg";
+import ts from "./assets/images/Skills/tss.png";
+import webflowIcon from "./assets/images/Skills/webflow icon.svg";
 
+// webflow
+import calendar from "./assets/images/pj/calendar space.png";
+import elean from "./assets/images/pj/elean studio.png";
+import lugar from "./assets/images/pj/lugar.png";
+import nextcent from "./assets/images/pj/nextcent.png";
 
-import Hireme_person2 from "./assets/images/Hireme/desk laptop image.jpg"
+// front
+import arka from "./assets/images/pj/arka.png";
+import explorista from "./assets/images/pj/exploristacofinal.png";
+import hasty from "./assets/images/pj/Hasty.jpg";
+import tehran from "./assets/images/pj/tehran.jpg";
 
 // import icons from react-icons
-import { GrMail } from "react-icons/gr"
-import { MdArrowForward, MdCall } from "react-icons/md"
-import { BsInstagram } from "react-icons/bs"
-import { TbSmartHome } from "react-icons/tb"
-import { BiUser } from "react-icons/bi"
-import { RiProjectorLine } from "react-icons/ri"
-import { MdOutlinePermContactCalendar } from "react-icons/md"
+import { BiUser } from "react-icons/bi";
+import { BsInstagram } from "react-icons/bs";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { GrMail } from "react-icons/gr";
 import {
-  FaLinkedin,
-  FaMapMarkerAlt,
-} from "react-icons/fa"
-const emailAddress = "amirhamzavi44@gmail.com"
-const subject = encodeURIComponent("Job Opportunity")
+  MdArrowForward,
+  MdCall,
+  MdOutlinePermContactCalendar,
+} from "react-icons/md";
+import { RiProjectorLine } from "react-icons/ri";
+import { TbSmartHome } from "react-icons/tb";
+const emailAddress = "amirhamzavi44@gmail.com";
+const subject = encodeURIComponent("Job Opportunity");
 const body = encodeURIComponent(
   "Hello, I am interested in discussing potential job opportunities with you."
-)
+);
 
-const mailtoLink = `mailto:${emailAddress}?subject=${subject}&body=${body}`
+const mailtoLink = `mailto:${emailAddress}?subject=${subject}&body=${body}`;
 export const content = {
   nav: [
     {
@@ -109,7 +115,7 @@ export const content = {
         para: "",
         logo: js,
       },
-         {
+      {
         name: "Webflow",
         para: "",
         logo: webflowIcon,
@@ -120,15 +126,38 @@ export const content = {
 
   Projects: {
     title: "Projects",
-    subtitle: "MY CREATION",
+    subtitle: "Developing",
     image: Hireme_person2,
     project_content: [
       {
-        title: "Box4U",
-        image: box4u,
-        link: `https://box4u.co/`,
+        title: "Explorista",
+        image: explorista,
+        link: `https://app.explorista.co/`,
         desc: `Discover the perfect blend of creativity and precision with Boxu4. Unleash your design potential using our meticulously crafted DXF files. Elevate your projects effortlessly - explore, create, and transform with Boxu4 today!`,
       },
+      {
+        title: "hasty",
+        image: hasty,
+        link: `https://app.hastyielts.ir/`,
+        desc: `"Empowering Engagement: A website I developed seamlessly merges ticket sales and advertisements, offering users a streamlined experience to purchase tickets while providing advertisers with a platform to reach their target audience effectively. Through intuitive design and strategic integration, this site exemplifies my ability to blend functionality with user-centric design, catering to both business objectives and user needs in a dynamic online environment."
+
+        `,
+      },
+      {
+        title: "Apple Araka",
+        image: arka,
+        link: `http://app.applearka.com/`,
+        desc: `Step into a visually stunning real estate experience with my frontend portfolio's homepage UI. Immerse yourself in sleek design and seamless navigation as you explore properties. Elevate your property search with an interface that blends elegance and functionality, making every click a step closer to finding your dream home.
+
+        `,
+      },
+
+      {
+        title: "Tehran mode",
+        image: tehran,
+        link: `https://tehran-mod.com/`,
+      },
+      ,
       {
         title: "Tiget",
         image: tiget,
@@ -137,31 +166,64 @@ export const content = {
 
         `,
       },
+      // {
+      //   title: "HypoMelk",
+      //   image: project5,
+      //   link: `https://hypo-melk.vercel.app/`,
+      //   desc: `Step into a visually stunning real estate experience with my frontend portfolio's homepage UI. Immerse yourself in sleek design and seamless navigation as you explore properties. Elevate your property search with an interface that blends elegance and functionality, making every click a step closer to finding your dream home.
+
+      //   `,
+      // },
+
+     
+      // {
+      //   title: "Crypto website",
+      //   image: project4,
+      //   link: `https://crypto-app-darkmode.vercel.app/`,
+      //   desc: `Discover the world of cryptocurrencies on our simple yet effective website. Get real-time updates on digital coin prices, empowering you with the information you need. Stay aware, make informed decisions – because in the digital economy, knowledge is your greatest asset.
+
+      //   `,
+      // },
+    ],
+  },
+  ProjectsWebflow: {
+    title: "Projects",
+    subtitle: "Webflow",
+    image: Hireme_person2,
+    project_content: [
       {
-        title: "HypoMelk",
-        image: project5,
-        link: `https://hypo-melk.vercel.app/`,
+        title: "Nextcent",
+        image: nextcent,
+        link: `https://next-cent.webflow.io/`,
+        desc: `Discover the perfect blend of creativity and precision with Boxu4. Unleash your design potential using our meticulously crafted DXF files. Elevate your projects effortlessly - explore, create, and transform with Boxu4 today!`,
+      },
+      {
+        title: "Lugar",
+        image: lugar,
+        link: `https://lugar.webflow.io/`,
+        desc: `"Empowering Engagement: A website I developed seamlessly merges ticket sales and advertisements, offering users a streamlined experience to purchase tickets while providing advertisers with a platform to reach their target audience effectively. Through intuitive design and strategic integration, this site exemplifies my ability to blend functionality with user-centric design, catering to both business objectives and user needs in a dynamic online environment."
+
+        `,
+      },
+      {
+        title: "Elean Studio",
+        image: elean,
+        link: `https://eleanstudio.webflow.io/`,
         desc: `Step into a visually stunning real estate experience with my frontend portfolio's homepage UI. Immerse yourself in sleek design and seamless navigation as you explore properties. Elevate your property search with an interface that blends elegance and functionality, making every click a step closer to finding your dream home.
 
         `,
       },
 
       {
-        title: "Ghazachi Shop (jsut UI)",
-        image: project3,
-        link: `https://restaurant-ghazachi.vercel.app/`,
-      },
-      {
-        title: "Crypto website",
-        image: project4,
-        link: `https://crypto-app-darkmode.vercel.app/`,
+        title: "Calendar Space",
+        image: calendar,
+        link: `https://thespace-calendar.webflow.io/`,
         desc: `Discover the world of cryptocurrencies on our simple yet effective website. Get real-time updates on digital coin prices, empowering you with the information you need. Stay aware, make informed decisions – because in the digital economy, knowledge is your greatest asset.
 
         `,
       },
     ],
   },
-
   Contact: {
     title: "Contect Me",
     subtitle: "GET IN TOUCH",
@@ -197,4 +259,4 @@ export const content = {
   Footer: {
     text: "All © Copy Right Reserved 2022",
   },
-}
+};
