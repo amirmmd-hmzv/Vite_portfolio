@@ -251,6 +251,7 @@ export const content = {
       {
         text: "My Linkedin Profile",
         icon: FaLinkedin,
+        
         link: "https://www.linkedin.com/in/amirmohammad-hamzavi-b0a570373",
       },
     ],
