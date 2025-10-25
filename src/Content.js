@@ -28,7 +28,7 @@ import tehran from "./assets/images/pj/tehran.jpg";
 // import icons from react-icons
 import { BiUser } from "react-icons/bi";
 import { BsInstagram } from "react-icons/bs";
-import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaLinkedin, FaMapMarkerAlt } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 import {
   MdArrowForward,
@@ -175,7 +175,6 @@ export const content = {
       //   `,
       // },
 
-     
       // {
       //   title: "Crypto website",
       //   image: project4,
@@ -249,11 +248,11 @@ export const content = {
         icon: BsInstagram,
         link: "https://www.instagram.com/amirmmd_hmzv/",
       },
-      // {
-      //   text: "My Linkedin Profile",
-      //   icon: FaLinkedin,
-      //   link: "https://www.linkedin.com/in/amir-mohammad-hamzavi-97ab82279?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGJhbdi3uSOyR1itiuMXYBQ%3D%3D",
-      // },
+      {
+        text: "My Linkedin Profile",
+        icon: FaLinkedin,
+        link: "https://www.linkedin.com/in/amirmohammad-hamzavi-b0a570373",
+      },
     ],
   },
   Footer: {
